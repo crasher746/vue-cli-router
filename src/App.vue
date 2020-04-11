@@ -38,5 +38,10 @@
     }
 </script>
 
-<style>
+<style lang="scss">
+    .navbar-link {
+        &.router-link-exact-active {
+            color: #5247e7;
+        }
+    }
 </style>
